@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.image-container .image-container-image {
+.image-container-image {
   width: 100%;
 }
-.image-container .more-info {
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -25,7 +25,7 @@
 
 }
 
-.to-do-list-container{
+.to-do-list-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -47,7 +47,8 @@ ul {
 li, h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 .btn {
@@ -104,7 +105,6 @@ input,button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
